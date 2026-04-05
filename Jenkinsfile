@@ -9,7 +9,7 @@ pipeline {
         stage('CloneRepo') {
             steps {
                 echo 'cloning the repo'
-                git 'https://github.com/NikitasGithub/DevOpsClassCodes.git'
+                git 'https://github.com/masterdevopsin/DevopsProject1.git'
             }
         }
          stage('compile') {
